@@ -1,0 +1,246 @@
+
+.cadre{
+   
+    background-color:#1d202b ;
+    margin-top: 90px;
+    border-radius: 30px;
+    align-self: center;
+    padding: 40px;
+   margin-bottom: 70px;
+   border: 1px solid ;
+
+}
+
+
+/*the header : register*/
+
+.title {
+    font-size: 35px; 
+    color: #07AFF0; 
+    font-size: 70px;
+    background-color: #1d202b;
+    height: 260px;
+    font-weight: bold ;
+    
+}
+.title img{
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    width: 350px;
+}
+
+
+.all{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title .highlight {
+    color: #feda5e; 
+   margin-left: 60px;
+  
+}
+
+
+
+body{
+    background-color: #b0bdc1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+ 
+}
+.checkbox{
+    color: #feda5e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    transform: scale(1.5);
+    margin-left: 185px;
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #feda5e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+}
+.input input{
+    height: 35px;
+    width: 400px;
+    background-color: #b0bdc1;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid #b0bdc1;
+    color: white;
+    font-size: 20px;
+}
+
+.status{
+    height:50px ;
+    
+}
+
+
+
+/*the status select box*/
+
+.input select {
+    height: 35px; 
+    width: 400px;
+    border: none;
+    border-bottom: 5px solid #b0bdc1;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px; 
+    
+}
+/*  the options box  */
+.input select option {
+    background-color: #2d3131; 
+   
+}
+
+.centerSubmit{
+    align-items: center;
+   
+
+}
+.quote{
+      font-size: 20px;
+      font-weight: bold;
+      color: #b0bdc1;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-left: 150px;
+   
+}
+.submit{
+    height: 70px;
+    width: 250px; 
+    background-color: #feda5e;
+    border: 2px solid #070707; 
+    border-radius: 10px;
+    outline: none;
+    color: #020202;
+    font-size: 30px; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-top: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    align-self: auto;
+    cursor: pointer;
+    margin-left: 350px;
+    
+}
+.submit:hover {
+    background-color: #7692a1;
+    border-color: #7692a1;
+    box-shadow: 3px 3px 8px #feda5e; 
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.input {
+    margin-bottom: 50px; /* Adjust the margin as needed to add space between inputs */
+}
+
+.input label {
+    display: block; /* Ensures labels are displayed as block elements for proper spacing */
+}
+
+
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+@media screen and (max-width: 600px) {
+    .cadre {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        padding: 70px;
+        
+    }
+
+    .title {
+        font-size: 35px;
+        color: #07aff0;
+        font-size: 70px;
+        background-color: #1d202b;
+        height: 220px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+    
+    .title .all {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+        margin-left: 45px;
+    }
+    
+    .title .highlight {
+        color: #feda5e;
+        margin-left: 0;
+    }
+    
+    .title img {
+        width: 350px;
+        margin-right: auto;
+    }
+    
+
+    .checkbox {
+        margin-left: 0;
+        width: 250px;
+        margin-left: 45px;
+        margin-bottom: 65px;
+    }
+
+    .input input,
+    .input select {
+        width: 100%;
+    }
+
+    .div1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .submit {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .centerSubmit{
+        margin-left: 20px;
+    }
+    .quote{
+        margin-left: 1px;
+        font-size: 17px;
+
+    }
+
+}

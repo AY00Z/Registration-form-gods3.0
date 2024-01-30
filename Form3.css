@@ -1,0 +1,249 @@
+
+.cadre3{
+   
+    background-color: #1d202b;
+    margin-top: 90px;
+    border-radius: 30px;
+    align-self: center;
+    padding: 40px;
+   margin-bottom: 70px;
+   border: 1px solid ;
+   height: 600px;
+
+}
+
+
+/*the header : register*/
+
+.title3 {
+    font-size: 35px; 
+    color: #07AFF0; 
+    font-size: 70px;
+    background-color: #1d202b;
+    height: 260px;
+    font-weight: bold ;
+    
+}
+.title3 img{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 350px;
+}
+
+
+.all3{
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title3 .highlight3 {
+    color: #feda5e; 
+   margin-left: 60px;
+  
+}
+
+
+
+body{
+    background-color: #b0bdc1;
+
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+ 
+}
+.checkbox3{
+    color: #feda5e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    transform: scale(1.5);
+    margin-left: 185px;
+
+}
+
+.input3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #feda5e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+}
+.input3 input{
+    height: 35px;
+    width: 400px;
+    background-color: #b0bdc1;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid #b0bdc1;
+    color: white;
+    font-size: 20px;
+}
+
+.status3{
+    height:50px ;
+    
+}
+
+
+
+/*the status select box*/
+
+.input3 select {
+    height: 35px; 
+    width: 400px;
+    border: none;
+    border-bottom: 5px solid #b0bdc1;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px; 
+    
+}
+/*  the options box  */
+.input3 select option {
+    background-color: #2d3131; 
+   
+}
+
+.centerSubmit3{
+    align-items: center;
+   
+
+}
+.quote3{
+    margin-left: 160px;
+    font-family: 'Arial Black', sans-serif;
+      font-size: 22px;
+      font-weight: bold;
+      color: #b0bdc1;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+}
+.submit3{
+    height: 70px;
+    width: 250px; 
+    background-color: #feda5e;
+    border: 2px solid #070707; 
+    border-radius: 10px;
+    outline: none;
+    color: #020202;
+    font-size: 30px; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-top: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    align-self: auto;
+    cursor: pointer;
+    margin-left: 300px;
+    
+}
+.submit3:hover {
+    background-color: #7692a1;
+    border-color: #7692a1;
+    box-shadow: 3px 3px 8px #feda5e; 
+}
+
+.div13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.input3 {
+    margin-bottom: 50px; /* Adjust the margin as needed to add space between inputs */
+}
+
+.input3 label {
+    display: block; /* Ensures labels are displayed as block elements for proper spacing */
+}
+
+
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+@media screen and (max-width: 600px) {
+    .cadre3 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        padding: 70px;
+        height: 980px;
+        
+    }
+
+    .title3 {
+        font-size: 35px;
+        color: #07aff0;
+        font-size: 70px;
+        background-color: #1d202b;
+        height: 220px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+    .quote3{
+        margin-left: 8px;
+    
+    }
+    
+    .title3 .all3 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+        margin-left: 70px;
+    }
+    
+    .title3 .highlight3 {
+        color: #feda5e;
+        margin-left: 0;
+    }
+    
+    .title3 img {
+        width: 350px;
+        margin-left: 20px;
+    }
+    
+
+    .checkbox3 {
+        margin-left: 0;
+        width: 250px;
+        margin-left: 45px;
+        margin-bottom: 65px;
+    }
+
+    .input3 input,
+    .input3 select {
+        width: 100%;
+    }
+
+    .div13 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .submit3 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .centerSubmit3{
+        margin-left: 20px;
+    }
+}
+

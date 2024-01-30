@@ -1,0 +1,145 @@
+
+.cadres{
+   
+    background-color: #1d202b;
+    margin-top: 90px;
+    border-radius: 30px;
+    align-self: center;
+   padding:55px;
+   border: 1px solid ;
+   height: 140px;
+   margin-top: 150px;
+   width: 450px;
+}
+
+
+/*the header : register*/
+.registers{
+    margin-top: 45px;
+}
+.titles {
+    font-size: 35px; 
+    color: #07AFF0; 
+    font-size: 70px;
+    background-color: #1d202b;
+    height: 278px;
+    font-weight: bold ;
+    margin-top: 0;  
+}
+.titles img{
+    position: absolute;
+    top: 87px;
+    left: 29px;
+    width: 350px;
+}
+
+
+.alls{
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.questions{
+    font-size: 22px;
+    color: #feda5e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.titles .highlights {
+    color: #feda5e; 
+   margin-left: 60px;
+
+  
+}
+
+
+.containers{
+    margin-top: -90PX;
+}
+body{
+    background-color: #b0bdc1;
+
+}
+
+.inputs{
+    color: #000000;
+    font-size: 19px;
+    width: 450px;
+    background-color:#1d202b;
+}
+
+
+
+.centerSubmits{
+    align-items: center;
+   
+
+}
+.alll{
+    display: flex;
+    flex-direction: column;
+}
+
+.submits{
+    height: 70px;
+    width: 250px; 
+    background-color: #feda5e;
+    border: 2px solid #070707; 
+    border-radius: 10px;
+    outline: none;
+    color: #020202;
+    font-size: 30px; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 70px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    align-self: auto;
+    cursor: pointer;
+    margin-left: 720px;
+
+   
+    
+}
+.submits:hover {
+    background-color: #7692a1;
+    border-color: #7692a1;
+    box-shadow: 3px 3px 8px #feda5e; 
+}
+
+
+
+
+
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+/*PHONE SCREEN*/
+
+@media screen and (max-width: 600px) {
+    .cadres {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+    }
+    .inputs{
+        color: #000000;
+        font-size: 17px;
+        width: 290px;
+        background-color:#1d202b;
+    }
+    .submits {
+        margin-top: 20px;
+        margin-left: 104px;
+    }
+    .centerSubmits{
+        margin-right: 38px;
+    }
+   
+   
+}
